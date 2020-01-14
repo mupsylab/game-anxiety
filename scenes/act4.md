@@ -389,7 +389,7 @@ b: 我是只遍体鳞伤的流浪狗。
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: 我们经历了太多不好的事情，也许是心理创伤，也许是轻视冷漠。这就是为什么我有时反应过度然后：
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: 乱吠乱叫
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: 但是我不*想*当只懦弱的狗！我想保护你！我想做一只好狗！
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: 人类...你能帮助我驯服这只狼吗？
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: 我...我会试试。
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: 好。有情感的健康的关系。这需要沟通。所以我们聊聊吧。
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: 接下来的五分钟会听上去非常多愁善感，但我们还是要装出样子直到达成目的。
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: 亲爱的内心的狼...*你*的情感是什么呢？Dear inner wolf... how are *you* feeling?
 
-n2: TOTAL FEARS USED:
+n2: 总共使用的恐惧：
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *受伤* {{_.attack_harm_total}}, *不被爱* {{_.attack_alone_total}}, *坏人* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: 你想先谈哪个恐惧？（其他的可以等会再谈）
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[我害怕我们会受伤。](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[我害怕我们会独自一人。](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[我害怕我们是坏人。](#act4_bad)
 
 # act4_harm
 
@@ -462,59 +462,59 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: 我想保护你不受身体上的伤害，
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: 但是*整个世界*都看上去很危险。充斥着悲剧和邪恶。
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: 我不知道，由*我*决定的说的话够多了。*你*怎么认为，人类？
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: 那么，还是回到你，人类。你怎么认为？
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: 还有别的想法吗，人类？
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[你是对的。那么让我们保护自己吧。](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[让我们暴露给*更多*危险吧。](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[谢谢。](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: 但是...怎么做？我有尖牙也有利爪，但我只是个隐喻而已。
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: 我们可以学习防身术？加入一个保护对方的团体？提高我们的身体素质和社会距离？
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: 也许吧，但是...
 
-[Where do we even start?](#act4_harm_skills_start)
+[我们从哪开始？](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[如果这些都不奏效怎么办？](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[要是我们过于看重"安全"怎么办？](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
