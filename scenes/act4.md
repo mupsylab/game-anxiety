@@ -208,46 +208,46 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *叹气*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: 所以这一切^他妈的^意义在哪？
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: 我们到底*学到了*什么？我*在*犯蠢，我的"朋友们"*在*利用我，而且我们差点^他妈的^*死了*
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[是啊，更不用说那些医疗费。](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[是啊，更不用说遭殃的肝。](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[是啊，那*确实*是最糟的情况。](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[是啊，我是对的。](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: 嗯。我不觉得我的保险还包括“做出^傻逼^行为”。
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: 但是尽管如此...我们活下来了！
 
 `hong({eyes:"normal"});`
 
-h: ?
+h: ？
 
 (#act4b)
 
@@ -255,18 +255,18 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: 我们肯定把自己的预期寿命削没了好几年...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: 但至少我们*还有*预期寿命！我们活下来了！
 
 ```
 hong({eyes:"surprise"});
 bb({eyes:"normal"});
 ```
 
-h: ?
+h: ？
 
 (#act4b)
 
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: 但是尽管如此...
 
-h: Hm?
+h: 嗯？
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: 我们活下来了！
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: 但是...你也是对的。
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: 嗯？
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: 我*确实*是叫狼来了的那只狼。所以当*真正的*危险来临的时候，你-理所当然地-没有相信我。
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: 但是尽管如此，我们活下来了！
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: 尽管发生了这所有的一切，我们仍然在这里。
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h:  我们才刚和死亡擦肩而过，但你看上去还蛮冷静的嘛。
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: 我们才刚和死亡擦肩而过*还转了个身*，但你看上去还蛮冷静的嘛。
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: 啊，和刚才的情况比起来一切都没那么可怕了。这也让我开始思考。
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: 也许我对抗你很糟糕，因为这并没有保护到你...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: 但是我对抗你*也*很糟糕，因为那只让你叫嚷得更嗨...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: 那么也许...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: 也许我们没必要彼此对抗。
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,11 +381,11 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: 我不是大坏狼。但我也不是守卫狼。
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: 我是只遍体鳞伤的流浪狗。
 
 `bb({eyes:"sad"})`
 
