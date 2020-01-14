@@ -520,15 +520,15 @@ b: 也许吧，但是...
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: 有那么多需要做的事情，那么多我们需要修好自己的地方。我们要从哪*开始*？
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: 就从现在开始。
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: 啊？
 
 ```
 bb({ body:"normal", mouth:"normal" });
