@@ -514,7 +514,7 @@ b: 也许吧，但是...
 
 [如果这些都不奏效怎么办？](#act4_harm_skills_work)
 
-[要是我们过于看重"安全"怎么办？](#act4_harm_skills_overboard)
+[要是我们过于看重“安全”怎么办？](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
@@ -524,7 +524,7 @@ b: 有那么多需要做的事情，那么多我们需要修好自己的地方�
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: 就从现在开始。
+h: 从现在开始。
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
@@ -535,19 +535,19 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: 我们现在就在进行有效沟通，这就会减少错误的绝对性，帮助我们更好地察觉危险，
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: *这样*就会保护我们不受伤害！ And *that* will help protect us from harm!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: 所以：这*就是*防身术训练。
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: 蛤。我本来还在期待更多别的：
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: 确实，没有百分之百能保护我们的方法...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: 但即使会有百分之一的进步也值得这么做，对吧？
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: 即使杯子百分之九十九都是空的，你也说它还有百分之一的水？
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: 如果你正被困在沙漠里的话，它仍是有价值的。
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: 好吧。那，干杯吧。
 
 (#act4_something_else)
 
@@ -594,26 +594,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: 我是说，你无视我的警告就是因为“我”过于看重安全！
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: 算啦，你是对的。我们会适度地注意安全。做所有事都适度。
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: 你说什么，*所有事*？
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: 适度地做*适度的事*。
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: 感谢你让你的说辞前后逻辑连贯。
 
 (#act4_something_else)
 
@@ -622,29 +622,29 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *什么*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: 我是说，比如有一只害怕雷声的狗。
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: 一种熟练训练员的做法是播放低音量的雷声，狗冷静下来了就给它奖励。
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: 训练员在接下来的几天里慢慢调高雷声的音量，直到那条狗完全克服对雷声的恐惧。
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: 这叫暴露疗法！
 
 `hong({ body:"point", eyes:"normal" });`
 
