@@ -389,7 +389,7 @@ b: 我是只遍体鳞伤的流浪狗。
 
 `bb({eyes:"sad"})`
 
-b: 我们经历了太多不好的事情，也许是心理创伤，也许是轻视冷漠。这就是为什么我有时反应过度然后：
+b: 我们经历了太多不好的事情，受到心理创伤或是被轻视冷漠。这就是为什么我有时反应过度然后：
 
 ```
 sfx("yaps", {volume:0.6});
@@ -432,7 +432,7 @@ h: 接下来的五分钟会听上去非常多愁善感，但我们还是要装�
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: 亲爱的内心的狼...*你*的情感是什么呢？Dear inner wolf... how are *you* feeling?
+h: 亲爱的内心的狼...*你*现在感觉怎么样？
 
 n2: 总共使用的恐惧：
 
@@ -539,7 +539,7 @@ h: 我们现在就在进行有效沟通，这就会减少错误的绝对性，�
 
 `hong({ eyes:"surprise" });`
 
-h: *这样*就会保护我们不受伤害！ And *that* will help protect us from harm!
+h: *这样*就会保护我们不受伤害！
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
@@ -648,19 +648,19 @@ h: 这叫暴露疗法！
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: 既然你是狗，这种疗法对你应该也有效，对吧？所有哺乳动物都用同样的急性应激反应。
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[要是我们麻木*过头*怎么办？](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[要是我们遇见的是*真正的*危险怎么办？](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[我是狼，不是狗。](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: 那我就温柔耐心地对待你，直到你被训成一只可爱的小狗。
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: 嗷。
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: 我们*才刚刚*看到了要是你失去恐惧会怎样-你把自己置于了*真正的*危险境地。
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: 再说，*过于*麻木不会让我们变成心理变态吗？
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: 不久我们就会发现自己在边吃爆米花边看鼻烟谋杀毛片！
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: 我...觉得那和雷声还是有区别的。
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: 但是区别的界线*在哪*，人类？*在哪？！*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: 我不知道。但*你*可以帮助我！
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: 和你一起探讨协商，我们会画出那条界线的。
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: 好吧，但我没有大拇指，所以画画那部分得你来做。
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: 比如：我们从^他妈的^*屋顶*跳下去！
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: 比如：我们差点从^他妈的^*屋顶*跳下去！
 {{/if}}
 
 ```
@@ -725,17 +725,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: 不你是对的，是*有可能*做过头。
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: 但那也是为什么，如果我们使用暴露疗法，我们会一小步一小步地向上走。
 
-h: Just before we hit *actual* danger, we stop.
+h: 在发生*真正的*危险之前，我们就停下。
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: 嗯我觉得听雷声和戴着高尖帽杵在暴风雨里还是有区别的。
 
 (#act4_something_else)
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: 等等，你没有其它想对我说的吗？就只是...“谢谢”？
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: 对呀！谢谢你关心我的{{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,67 +776,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: 你还好吗？
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: 你从没对我说过*谢谢*。
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: 哦你这个毛茸茸软绵绵的大可怜狼。Aw you big fuzzy-wuzzy panic-wolf.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: 即使你反应过度，我依旧感谢你关心我的{{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: 等等...你不会在用“谢谢”来回避对恐惧的讨论吧？
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: 这个嘛，事情很复杂。而且我并不总是能准备好答案的。
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: 生活又不会给你提供备好的答案清单。
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: 但现在，我至少可以说声谢谢。
 
-b: Well, thank you too, for listening to me patiently.
+b: 哦，也谢谢你，这么耐心地听我说。
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: 你这个没毛的小动物。
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: 虽然你的乱叫吓到了我，但你只是想保护我的{{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: 行了行了，你再这样奉承我，网民们会对我们有什么奇奇怪怪的想法的。
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: 得了吧，我只是个脆弱的大学生而你是个巨大的可怕的狼。能发生什么--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: 那什么，你别回答。
 
 (#act4_something_else)
 
@@ -852,33 +852,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: 我想确保满足你深深的对归属感的需求...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: 但是我担心要是有任何人了解了我们-*真实的*我们-我们会把他们都吓跑。
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: 我不知道，由*我*决定的说的话够多了。*你*怎么认为，人类？
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: 那么，还是回到你，人类。你怎么认为？
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: 还有别的想法吗，人类？
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[我同意：让我们努力提升自己的社交生活吧。](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[我觉得人们是喜欢我们的。一起找找看？](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[谢谢。](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -887,60 +887,60 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: 我们可以练习技巧，像是提问，倾听，强调，开放思想，诸如此类？
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: 或者养成更好的社交习惯，像是安排时间陪朋友，或是固定每隔一段时间就去参加聚会？
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: 还能让我们适应被拒绝。
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: 或是分辨出*没有*在拒绝我们的人，这些人只是累了或是天生长着一张臭脸。
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: 选择有很多啊。但是关于这个“学习社交技巧”...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[那不会是*摆布别人*吗？](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[那不会让我们*更容易被摆布*吗？](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[如果我们还是失败了呢？](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: 连环杀手不就是特别擅长使用“同理心”理解受害者的情绪的人吗？
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: 查尔斯·曼森不就获得了朋友和追随者吗？
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: 不，你是对的。
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: 如果我们不是真心实意地*在乎*他人，“社交技巧”将没有任何意义。
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: 总的来说就是，别当个^混球^。
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: 真是个激励人心的宣传标语。
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “别当个^混球^™”
 
 (#act4_something_else)
 
@@ -948,29 +948,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: 我们会成为门口的擦鞋垫，一边说着请和谢谢一边让人们踩在我们脸上反复摩擦！
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: 我们要用热脸贴多少冷屁股，我们的嘴会变得像是涂了棕色的口红！
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: 嗯，你是对的。“社交技巧”不能只是取悦他人，也得包括设定*界限*。
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: 如果我们的房子没有墙作为支撑，我们就不能邀请别人进我们家。
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: 还有...那个口红的画面...*呕？？*
 
 (#act4_something_else)
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: 我们可能会失败。不对，我们*会*失败的。
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: 而那也没关系！每个人在刚开始学新东西时都会失败的！
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: 所以让我们一起在失败中前进吧，好吗？
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: 当然了，我猜...最坏的情况，我们可以直接跑路，然后换个新身份。
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: 是啊我觉得在这个年代做到这些只需要花两个比特币。
 
 (#act4_something_else)
 
@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: 我们可以做些实验！
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: 我们可以约个朋友出去玩，重新联系一个以前的朋友，或者就只是和一个咖啡师唠会嗑。
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: 我觉得我们也许会发现我们比自己想的要更讨人喜欢。
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[如果这些只是渺小的，廉价的“胜利”呢？](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[如果这给别人造成了负担呢？](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[但是只唠会嗑无法代表*真实的*我们！](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: 如果我们挂着假笑，我们就不可能和任何人建立真正的联系，
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *但是*如果我们敞开心扉，其他人就会看到我们一团糟的内心！
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,64 +1045,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: 翻个身。
 
-b: What.
+b: 什么。
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: 当狗想展示爱和信任的时候，他们会露出肚子使自己变得脆弱。
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: 也许我们*还*无法安心变得太脆弱，但只要多练习
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: 有一天我们会可以向人们展示真实的自己-遭到透顶，但是有人情味。
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: 你奖励我的话我就翻身。
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: 免了。
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: 跟咖啡师说声“嗨”可不是个在交际花奥运会里能拿金牌的表现。
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: 这是为了*我们*！
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: 在社交舞台上，我们的级别连轻如鸿毛都算不上，我们大概...要以夸克为计量单位。
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: 如果我们非得从渺小的，廉价的“胜利”开始，那就这么做。在走到第一千步之前得先迈出第一步。
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: 对！也许说了“嗨”之后，我们下一步可以说...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *“你怎么样？”*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *“就那样吧！”*
 
 (#act4_something_else)
 
@@ -1110,29 +1110,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: 也许那个咖啡师只想煮点咖啡，而不是被当做测试我们的社交技巧有多菜的*小白鼠*。
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: 这个，如果我们真*成了*人家的负担...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: 能知道这点也很好！
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: 我们就可以学习如何主动地询问另对方感觉舒服的表达方式，了解并尊重他人的界限。
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: 你知道的，那些心理咨询小册子里写的关于“人际沟通能力”的玩意儿。
 
 (#act4_something_else)
 
@@ -1147,43 +1147,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: 我想守护你的道德需求，让你成为一个更好的人，
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: 但是怎么感觉在内心深处，我们破碎得...那么彻底。
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: 而且别跟我说我们*不是*一团糟。我们刚才从*房顶*上跳下去了。
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: 而且别跟我说我们*不是*一团糟。我们刚才差点从*房顶*上跳下去了。
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: 我不知道，由*我*决定的说的话够多了。*你*怎么认为，人类？
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: 那么，还是回到你，人类。你怎么认为？
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: 还有别的想法吗，人类？
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[所以我们破碎得彻底。那我们把自己修好吧。](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[所以我们破碎得彻底。那我们就接受这点吧。](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[谢谢。](#act4_thanks) `_.thanks_for = "moral well-being";`
 
 # act4_bad_fix
 
@@ -1192,48 +1192,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: 我们可以慢慢养成更好的习惯，让我们的人生迈向正轨，获得价值，
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: 如果需要，我们可以寻求专业的帮助-心理治疗师或是心理咨询师。
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: 总会有办法修好我们的。
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[如果我们没法完全修好呢？](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[如果我们修*太多*了呢？](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[我们负担不起专业帮助。](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: 啧，我想你是对的。
 
-h: We can't fix it all.
+h: 我们不可能完全修好。
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: 啊啊我就知道我们永远都会是破碎的！
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: 但至少我们可以*不那么*破碎。
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: 伤口会随着时间愈合，但它们从不消失。而那也没有关系。
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: 我猜吧。再说，
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1241,7 +1241,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: 过去的伤疤*很性感*。
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: 求你别来这套。
 
 (#act4_something_else)
 
@@ -1259,35 +1259,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: 我很不想承认，但是...我内心的一部分*想要*继续保持这份混乱。
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: 我是说，没了它，我们不会很*无聊*吗？
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: 没了它，我们的艺术不会变得又陈腐又乏味吗？
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: 没了它，我们还怎么和同样有这种混乱的朋友交流？
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: 如果我们开始对自己的生活感到满足，我们岂不是会停止驱动自己去干更伟大的事吗？
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: 要是我们对“克服恐惧”...感到恐惧...
 
-h: I don't think we're gonna run out of fears.
+h: 我觉得我们永远都无法克服恐惧。
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: 哦，对哦！咻！真是令人松了一口气！
 
 (#act4_something_else)
 
@@ -1295,53 +1295,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: “医生，我很焦虑因为我正花一小时一百的咨询费来听你重复*这让你有什么感觉？*”
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: “嗯-嗯。那么这让你有什么感觉？”
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: 嗯，这是很合理的担忧。
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: 很多人都负担不起心理医疗这件事遭到透顶。
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: 但是尽管如此，还是有一些便宜或是免费的选择的。
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: 互助小组，线上治疗，学生/非盈利的健康中心...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: 养成像是吃药啊，按时睡觉啊，定期和朋友聊天啊，学习新鲜事物啊这样的习惯。
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: 去图书馆借书来寻找有证据支撑的心理疗法...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: 在游戏的末尾会有一张完整的资源清单！
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: 嘿，*我们这个*第四面墙没能持续多久啊。
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: 有些事比叙事规范更重要。比如心理健康。
 
 (#act4_something_else)
 
@@ -1353,20 +1353,20 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: 我的意思是，心理治疗师不就是这么说的吗？接受你的所有情绪，哪怕是负面情绪？
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: 等等。
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+[“接受”是说*放弃*？"Accept" as in *give up*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+[“接受”是说*赞成*？"Accept" as in *approve*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+[“接受”是说*从字面上理解*？""Accept" as in *take literally*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
