@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: **这 是 一 个 人 类**
+n2: 这 是 一 个 人 类
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: **而 这 是 人 类 的 焦 虑**
+n: 而 这 是 人 类 的 焦 虑
 
-n: **_你_ 来 扮 演 焦 虑**
+n: _你_ 来 扮 演 焦 虑
 
 (#act1_normal)
 
@@ -73,38 +73,38 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: **你 的 任 务 是 从 *危 险* 中 保 护 人 类**
+n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: 妈耶！你又开始把生命和微博一起刷走了！
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: 是啊我在想为什么我不多坐着然后听我的内心发言。
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: 快，警告他们面临的*危险*！
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[哦不，看那个恐怖的新闻！](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[哦不，那条微博是不是在暗讽*我们*？](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[嘿，一张猫喝牛奶的动图。](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: 哈是啊很可爱，我--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: **猫消化不了牛奶我们竟然在享受对动物的虐待我们真是大烂人**
 
 (...200)
 
