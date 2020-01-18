@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: （游戏已自动保存！可以退出然后过会儿再继续）
+n5: （游戏已自动保存！可以退出然后下次再继续）
 
 ```
 Game.clearAll();
