@@ -803,7 +803,7 @@ Game.executeChoice = function(line){
 		// Modify choiceText in place, it's fine.
 		var startOfMatch = results.index;
 		var endOfMatch = results.index + results[0].length;
-		choiceText = choiceText.slice(0,startOfMatch) + "<b>" + results[1] + "</b>" + choiceText.slice(endOfMatch);
+		choiceText = choiceText.slice(0,startOfMatch) + "<b style=\"font-weight: 600;\">" + results[1] + "</b>" + choiceText.slice(endOfMatch);
 	}
 
 	var div = document.createElement("div");
