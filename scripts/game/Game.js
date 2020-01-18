@@ -480,20 +480,53 @@ Game.executeText = function(line){
 		if(speaker=="b" || speaker=="h" || speaker=="h2" || speaker=="h3" || speaker=="n3" || speaker=="r" || speaker=="a" || speaker=="s"){
 
 			// Put in the text, each character a DIFFERENT SPAN...
+			// This part will traverse the characters and decide whether to make it *italicized* , **bolded** or do ***both*** of it according to the current state.
 			var span, chr;
 			var isItalicized = false;
+			var isBolded = false;
 			for(var i=0; i<dialogue.length; i++){
 
-				// Is it italicized?
 				chr = dialogue[i];
-				if(chr=="*") isItalicized = !isItalicized; // toggle!
+				
+				if(dialogue[i] == "*" && dialogue[i-1] == "*" && dialogue[i-2] == "*" && dialogue[i+1] != "*"){
+					if(isItalicized && isBolded){ 	//end part of *** mark
+						isBolded = false;
+						isItalicized = false;
+					}else{
+						isBolded = true;
+						isItalicized = true;
+					}
+				}else{
+					if(dialogue[i] == "*" && dialogue[i-1] == "*" && dialogue[i+1] != "*"){
+						if(!isItalicized && isBolded){	 //end part of ** mark
+							isBolded = false;
+							isItalicized = false;
+						}else{
+							isBolded = true;
+							isItalicized = false;
+						}
+					}else{
+						if (dialogue[i] == "*" && dialogue[i+1] != "*") {
+							if(isItalicized && !isBolded){ //end part of * mark
+								isBolded = false;
+								isItalicized = false;
+							}else{
+								isBolded = false;
+								isItalicized = true;
+							}
+						}
+					}
+				}
 
 				// Add letter span
 				span = document.createElement("span");
 				if(chr=="*"){
 					// else, empty. can't NOT add span, coz screws up indexing.
 				}else{
-					span.innerHTML = isItalicized ? "<i>"+chr+"</i>" : chr;
+					// span.innerHTML = isItalicized ? "<i>"+chr+"</i>" : chr; <- old code
+					span.innerHTML = chr;
+					if(isItalicized) span.innerHTML ="<i>"+span.innerHTML+"</i>"
+					if(isBolded) span.innerHTML ="<b style=\"font-weight: 600;\">"+span.innerHTML+"</b>"
 				}
 				span.style.opacity = 0;
 				div.appendChild(span);
@@ -546,7 +579,7 @@ Game.executeText = function(line){
 				// Bigger interval
 				if(i!=dialogue.length-1){ // NOT last
 					if(chr=="."){
-						if(dialogue[i+1]=="\""){ // UNLESS next one's a punctuation!
+						if(dialogue[i+1]=="\"" || dialogue[i+1]=="“" || dialogue[i+1]=="”"){ // UNLESS next one's a punctuation!
 							interval += 0;
 						}else{
 							interval += SPEED*10;
