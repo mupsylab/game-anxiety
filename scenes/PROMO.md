@@ -6,7 +6,7 @@
 
 (...51)
 
-[PLAY!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[开始游戏！](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: 所以在我们开始之前，*你*有什么阅读偏好？
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: 好，让我们的故事开始吧...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: **这 是 一 个 人 类**
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: **而 这 是 人 类 的 焦 虑**
 
-n: _YOU_ ARE THE ANXIETY
+n: **_你_ 来 扮 演 焦 虑**
 
 (#act1_normal)
 
@@ -66,14 +66,14 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: 不。不，没有，没在听。我得看下手机。
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: **你 的 任 务 是 从 *危 险* 中 保 护 人 类**
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
