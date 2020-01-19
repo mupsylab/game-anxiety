@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: 而 这 是 人 类 的 焦 虑
 
-n: _YOU_ ARE THE ANXIETY
+n: _你_ 扮 演 焦 虑
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: 哦嗨！我们又回来了？
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: 实 际 上 ， 重 玩 这 个 游 戏 正 让 他 们 处 于 *危 险 中*
 
-n: QUICK, WARN THEM!
+n: 快 ， 警 告 他 们 ！
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: 人类！听着，我们碰到危险了！玩家...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...要再次折磨我们！](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...不会找到别的结局的！](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...会发现游戏内容和游戏结构相矛盾！](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: 他们会让我们缩成球然后哭！
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: 他们会让你恐慌发作以谋杀你的手机！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: 他们会让我们*不*揍派对上的那个人！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: 他们会让我们揍派对上那个混乱善良的人！
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: 额至少我们这回也许不用从屋顶上跳--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: **他们会让我们从屋顶上跳下去的。**
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: **所有这些新的坏事都会发生在我们身上，然后我们就会--**
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: 当然了，总体来说*整个*故事还是一样的，但是每章都有两个可能的结局，再说还有那么多对话分支的选--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: 玩家会很失望，关掉这个页面，删掉这个程序，然后我们就会--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: 会发现- 什么玩意？
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: 整个故事想阐述的就是你可以如何***选择***与你的恐惧建立健康的合作关系，
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: 但是重玩游戏只会看到同一个故事，也就是在暗示你的***选择***压根不重要，
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: 也就是说游戏想传达的和游戏的结构根本就互相矛盾，
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: 这个叙事宇宙的结构会开始瓦解，
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: 然后我们就会--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: **死！！！！！！**
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: 好了回到角色来吧。
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: （ 让 _你 的_ 焦 虑 吧啦吧啦 选 择 和 _你 的_ 恐 惧 吧啦吧啦 你 知 道 怎 么 玩 的 ）
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: 哦妙啊，我的狼回来了。太————棒了。
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: 实 际 上 ， 那 个 三 明 治 正 让 他 们 处 于 *危 险 中*
 
-n: QUICK, WARN THEM!
+n: 快 ， 警 告 他 们 ！
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: 人类！听着，我们碰到危险了！危险是...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: （ 让 _你 的_ 焦 虑 来 接 手 游 戏 ！ 选 择 和 _你 的_ 恐 惧 最 接 近 的 选 项 ）
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[我们又在一个人吃午餐！](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[我们吃东西并不能产生价值！](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[白面包对我们有害！](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,27 +227,27 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: 你不知道孤独和一天抽十五根烟一样会导致过早死亡吗？
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (Holt-Lunstad 2010, PLoS Medicine)
+b: （Holt-Lunstad 2010，医学期刊)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: 呃，感谢你标注来源但是--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: 也就是说如果我们*现在*没和别人待在一块儿我们就会-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: **死！！！！！！**
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: 你 使 用 了 *不 被 爱 的 恐 惧*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: 立马掏出你的电脑干点正事！
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: 呃，我不想让面包屑掉到键--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: 如果我们没有在为社会做贡献我们就是社会寄生虫！
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: 就会有社会上的社会医生用药来消灭社会寄生虫然后我们就会--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: **死！！！！！！**
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: 你 使 用 了 *成 为 坏 人 的 恐 惧*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: 那些研究不是一直在证明--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: 淀粉会导致我们血糖飙升所以我们的四肢不得不被截掉然后我们就会-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: **死！！！！！！**
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: 你 使 用 了 *受 到 伤 害 的 恐 惧*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: 效 果 显 著
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: 看到了吗，人类？我是你忠诚的守卫狼！
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: 相信你的直觉！你的情感永远是合理的！
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: 让 人 类 的 能 量 条 见 底
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: 为 了 保 护 人 类 身 体 上 + 社 会 上 + 道 德 上 的 需 求 ， 你 可 以 使 用 ：
 
-n: FEAR OF *BEING HARMED* #harm#
+n: *受 到 伤 害 的 恐 惧* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: *不 被 爱 的 恐 惧* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: 和 *受 到 伤 害 的 恐 惧* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: （ 重 要 提 示 ： 选 择 那 个 击 中 了 你 内 心 最 深 处 最 隐 秘 的 恐 惧 的 选 项 ！ ~ ）
 
 h: ...
 
