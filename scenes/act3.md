@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: 干杯！
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *啊*这个感觉才对。
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: 你懂得，小孩...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: 尤其是...上头的时候...左右杏核体那一块...
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: 你让我想起我小时候，也被脑子里的那个怪兽折磨的时候。
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: 我很感激我可以把经验传授给你，尤其是能帮你干掉你脑子里的那个，就，当时和我一样的那种...
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: 啊对了，马上告诉我，真心话还是大--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: **大冒险！**
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: 哈哈哈！好！
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: 那，你看到那个淡蓝色的泳池了吗？
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: 嗯？六层楼下面的那个？
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: 跳进去。
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: 呃？等等？
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: 脑子里的怪兽要回来了对不对？
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *别别别那个太危险了千万别*--
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: 但是这就为什么需要这种极限的刺激！动起来！及时行乐！就算是^喷屎^也得做！人一辈子就活一次！
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: 让那个东西知道我们^他妈的^根本就不在乎！快跳！
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: 呃，但是吧，就是...我有点害怕......
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: 有没有搞错？你是不是信了那个什么速成正念说的那个*感觉到糟糕是一种好事*的说法？
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: 喜悦是痛苦的反义词好不好！就是^他妈的^说，要用喜悦去对抗痛苦！
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: 北上广的那些假佛系的人们怎么就看不出来这一点呢
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: 孩子我知道*你*明白那些猛兽就是在*伤害*我们这种人，在*折磨*我们这种人。
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: 那不是我们的朋友，那是野兽，凶猛的野兽，需要被放倒然后关起来的野兽。
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: 不过要我说应该直接*一枪打死*。
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: 不然的话，保不准哪天它又会回来。
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: 对，说的没错。
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: 我可不能让它回来。
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: 这才^他妈^对嘛！我相信你！干掉它！
 
 (#act3a)
 
@@ -240,38 +240,38 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: 别别别别别
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: 这一章有两个不同结局， 其中一个会 *非常糟。* 
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: **别别别别别别别别别别别别**
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: *小心决策， 保护人类。*
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
-b: AAAAAAAAAAAAAAAAAA
+b: **啊啊啊啊啊啊啊啊啊啊啊啊**
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: *祝你好运*
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[你真的可能会_死_！人类！](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[这就是自残！超蠢的！](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[那些神经病根本就不是你的朋友！](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: **你真**--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: **那些**--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: **这就**--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: 你要知道，如果你之前没那么那么努力，我可能还会相信你。
 
-h: You're the wolf who cried wolf.
+h: 你才是那个叫狼来了的那个野兽。
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: 对，包括这一招。
 
-b: human, please...
+b: 人类...求求你...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: 哦*很抱歉*我的大救星拒绝我自己发现的解决办法。
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: 但是你^他妈的^看好了，他们*全都*有办法让你^他妈的^闭嘴。
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: 有人投入工作。
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: 有人投入约炮，嗑药，或者是刷微博。
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: 还有人投入其他人的怀抱。
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: 所以，我要投入那个泳池。
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[你喝醉了**那是六层楼下面**。](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[所以你现在同意我了？](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[ 好好好我承认我搞砸了。](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: 就算是你能落在水里，水面张力**最次**也能让你摔得粉身碎骨！
 
-h: Eh.
+h: 呃
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: 我在B站看过有战斗民族的人试过了。
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: 我- 我同意你什么了？
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: 同意你的拒绝！这就是为什么我*能够存在*！因为根本不能去相信人类有能力去保护自己！
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: 这辈子我就做了一件事情那就是让你拒绝危险！这样我才能保护你但是现在你--
 
 ```
 hong({body:"drink"});
@@ -442,41 +442,41 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: 呵
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: 呵呵哈哈哈
 
 `hong({ body:"laugh_3" })``
 
-h: HAHAHAHAHAHA
+h: **啊哈哈哈哈哈哈哈哈**
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: 哇这简直是这个世纪最^它妈^轻的轻描淡写了！
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: 对没错，你这个^死臭血逼烂布头^全部都搞砸了。
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: 接着检讨啊？还有别的废话吗？
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[但是就算这样你也不应该报复我！](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[但是*起码这一次*我说对了！](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[我曾经伤过你](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: You need to have a healthier relationship with your emotions, rather than drown them wi-- 你要以健康的心态面对自己的情绪，而不是把--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: 所以求求你，把手里的瓶子放下然后我们--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: 求你了千万别...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: 你的血条看来已经见底了，大狼。
 
-h: If I were you, I'd choose your next words very carefully.
+h: 如果我是你的话说话会再小心一点，
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[行，我再也不管你了。](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[我说的有半点错吗？](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[对不起。](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: So, go ahead and jump. See what I care. 行，那你跳吧。看谁管你。
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: 等我先把这瓶吹了。
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: **不对等一下我刚刚那是逆向心理学你本来应该故意不按我说**--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: 你*确实在*走近危险，你所谓的朋友*正在*利用你，*你自己*也在利用你所谓的朋友。
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: 所以，求你了，人类，为什么就是不相信我？！
 
-h: Because you never believed in *me*.
+h: 因为你从来就没相信过*我*。
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together, 其他守卫狼的人类都花时间去耐心的训练它们的狼，去*学习*怎么相处。
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus-- 而不是去憎恶保护自己的守卫狼！所以为什么你就不--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: 满口^喷粪^。
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *“恐惧唯一需要恐惧的东西是恐惧资深”*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *“不要想太多，要看开！”*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h:我们这个时代的人都认为，消极情绪是不好的！
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: 这就是他们所说的*负能量*！
 
-b: human... please...
+b: 人类......求你了......
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: 我之前说过，我不想再这样痛苦下去了。
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: 我现在做到了，我现在既不焦虑也不痛苦...
 
-h: I don't feel anything at all.
+h: 我什么都感觉不到。
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: 我之前只警惕其他人并确保它们不会伤害你，而没意识到反而是*我*造成了伤害。
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: ^我操^不是吧。
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^该死^。真的需要这么费事才能让你明白这一点吗？！
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: 你这傻^肥狗^本来能为我们避免那么多的麻烦。为什么你不能早点意识到呢？...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...*你很抱歉*。
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: 抱*什么*歉？
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[我很抱歉我没保护好你。](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[我很抱歉我不够尊重你。](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[我很抱歉。](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[很抱歉我的人类这么烂！](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[我很抱歉我不够尊重你。](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[很抱歉我曾经伤害过你。](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: 我的职责是为你警戒真正的危险，而不是对着车子和路人狂吠。
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: 对着虚影吠，吠个不停。
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: 只有给我按上嘴套才说得过去。
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: 对不起。
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: 我本来应该是*你的*忠诚守卫，但是实际上的情况像是我在要求你听*我的*命令。
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: 守卫和看守本来应该是不同的概念，我觉得我越界了。
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: 对不起。
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: 我之前一直在警惕其他人并确保它们不会伤害你，没想到过反而是*我*造成了伤害。
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: 我不是个好狗。
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: 对不起。
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: 啊，那好吧，反正这本来也不是什么好点子。
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: 我做这件事本来是想膈应你，然后，嗯，我觉得我做到了。
 
-h: Let's just call this round a tie, okay?
+h: 那我们这把应该是算...平局？
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: 行吧。
 
-h: Okay.
+h: 那行。
 
-n: *TIE*
+n: *平局*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: 你*不是吧*？那个猛兽跟你折腾了这么久，随后你*就这么放弃*了？
 
-r: What's the matter, kid? Are you *scared?*
+r: 你小子怎么了？*害怕*了？
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: 对。
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: 我怕了。
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: 但是没什么大不了的。
+
+`publish('hong-next')`
+
+h2: 我就是害怕了又怎么样。
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: 它是不是把门给锁了...
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: 别...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: 别别别
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: **不要啊**
 
 (...400)
 
