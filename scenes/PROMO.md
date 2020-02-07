@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: 这 是 一 个 人 类
+n2: 这是一个人类
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: 而 这 是 人 类 的 焦 虑
+n: 而这是人类的焦虑
 
-n: _你_ 来 扮 演 焦 虑
+n: _你_扮演焦虑
 
 (#act1_normal)
 
@@ -73,11 +73,11 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
+n: 你的任务是从 *危险* 中保护人类
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: 妈耶！你又开始把生命和微博一起刷走了！
+b: 妈耶！你又在把生命和微博一起刷走了！
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
@@ -88,7 +88,7 @@ h: 是啊我在想为什么我不多坐着然后听我的内心发言。
 
 `hong({eyes:"neutral"});`
 
-n: 快，警告他们面临的*危险*！
+n: 快， 警告他们面临的 *危险！*
 
 ```
 bb({eyes:"look"});
@@ -96,7 +96,7 @@ bb({eyes:"look"});
 
 [哦不，看那个恐怖的新闻！](#act1d_news)
 
-[哦不，那条微博是不是在暗讽*我们*？](#act1d_subtweet)
+[哦不，那条微博是不是在偷偷说*我们*？](#act1d_subtweet)
 
 [嘿，一张猫喝牛奶的动图。](#act1d_milk)
 
@@ -121,6 +121,3 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 attack("20p", "bad");
 publish("hp_show");
 ```
-
-
-

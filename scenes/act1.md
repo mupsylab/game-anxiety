@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: 而 这 是 人 类 的 焦 虑
+n: 而这是人类的焦虑
 
-n: _你_ 扮 演 焦 虑
+n: _你_扮演焦虑
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -28,13 +28,13 @@ h: 哦嗨！我们又回来了？
 
 `hong({eyes:"0_neutral"})`
 
-n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
+n: 你的任务是从 *危险* 中保护人类
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: 实 际 上， 重 玩 这 个 游 戏 正 让 他 们 处 于 *危 险 中*
+n: 实际上， 重玩这个游戏正让他处于 *危险中*
 
-n: 快， 警 告 他 们！
+n: 快， 警告他！
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: 人类！听着，我们碰到危险了！玩家...
+b: 人类！听着，我们碰到危险了！这个玩家...
 
 [...要再次折磨我们！](#act1_replay_torture)
 
 [...不会找到别的结局的！](#act1_replay_alternate)
 
-[...会发现游戏内容和游戏结构相矛盾！](#act1_replay_dissonance)
+[...会发现游戏的内容和结构相矛盾！](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,19 +59,19 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: 他们会让我们缩成球然后哭！
+b: 他会让我们缩成球然后哭！
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: 他们会让你恐慌发作以谋杀你的手机！
+b: 他会让你恐慌发作以谋杀你的手机！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: 他们会让我们*不*揍派对上的那个人！
+b: 他会让我们*不*揍派对上的那个人！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: 他们会让我们揍派对上那个混乱善良的人！
+b: 他会让我们揍派对上那个混乱善良的人！
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
@@ -79,12 +79,12 @@ h: 额至少我们这回也许不用从屋顶上跳--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: **他们会让我们从屋顶上跳下去的。**
+b: **他会让我们从屋顶上跳下去的。**
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: **所有这些新的坏事都会发生在我们身上，然后我们就会--**
+b: **所有这些新的坏事都会发生在我们身上， 然后我们就会--**
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: 当然了，总体来说*整个*故事还是一样的，但是每章都有两个可能的结局，再说还有那么多对话分支的选--
+h: 当然了，*总体来说*整个故事还是一样的，但是每章都有两个可能的结局，再说还有那么多对话分支的选--
 
 `bb({body:"fear"});`
 
-b: 玩家会很失望，关掉这个页面，删掉这个程序，然后我们就会--
+b: 那玩家会很失望，关掉这个页面，删掉这个程序，然后我们就会--
 
 (#act1_replay_end)
 
@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: 会发现- 什么玩意？
+h: 会发现——什么玩意？
 
 `bb({eyes:"normal"});`
 
@@ -124,11 +124,11 @@ b: 但是重玩游戏只会看到同一个故事，也就是在暗示你的***�
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: 也就是说游戏想传达的和游戏的结构根本就互相矛盾，
+b: 也就是说游戏想传达的意思和游戏的机制根本就互相矛盾，
 
 `bb({eyes:"fear"});`
 
-b: 这个叙事宇宙的结构会开始瓦解，
+b: 于是这个叙事宇宙的结构会开始瓦解，
 
 `bb({body:"fear"});`
 
@@ -170,7 +170,7 @@ h: 好了回到角色来吧。
 Game.clearText();
 ```
 
-n4: （ 让 _你_ _的_ 焦 虑 吧啦吧啦 选 择 和 _你_ _的_ 恐 惧 吧啦吧啦 你 知 道 怎 么 玩 的 ）
+n4: （让_你的_焦虑吧啦吧啦选择和_你的_恐惧吧啦吧啦你知道怎么玩的）
 
 ```
 sfx("squeak");
@@ -190,13 +190,13 @@ h: 哦妙啊，我的狼回来了。太————棒了。
 
 `hong({eyes:"0_neutral"})`
 
-n: 你 的 任 务 是 从 *危 险* 中 保 护 人 类
+n: 你的任务是从 *危险* 中保护人类
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: 实 际 上， 那 个 三 明 治 正 让 他 们 处 于 *危 险 中*
+n: 实际上， 那个三明治正让他处于 *危险中*
 
-n: 快， 警 告 他 们！
+n: 快， 警告他！
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: 人类！听着，我们碰到危险了！危险是...
 
 `bb({body:"squeeze"})`
 
-n4: （ 让 _你_ _的_ 焦 虑 来 接 手 游 戏！ 选 择 和 _你_ _的_ 恐 惧 最 接 近 的 选 项 ）
+n4: （让_你的_焦虑来接手游戏！ 选择和_你的_恐惧最接近的选项）
 
 (#act1_normal_choice)
 
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: 你 使 用 了 *不 被 爱 的 恐 惧*
+n: 你使用了 *不被爱的恐惧*
 
 (#act1b)
 
@@ -284,7 +284,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: 如果我们没有在为社会做贡献我们就是社会寄生虫！
 
-b: 就会有社会上的社会医生用药来消灭社会寄生虫然后我们就会--
+b: 就会有社会体系中的社会医生用药来消灭社会寄生虫然后我们就会--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: 你 使 用 了 *成 为 坏 人 的 恐 惧*
+n: 你使用了 *成为坏人的恐惧*
 
 (#act1b)
 
@@ -315,14 +315,14 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: 那些研究不是一直在证明--
+h: 那些研究有没有做重复实--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 淀粉会导致我们血糖飙升所以我们的四肢不得不被截掉然后我们就会-
+b: 淀粉会导致我们血糖飙升然后我们不得不被截掉四肢然后我们就会-
 
 `bb({body:"panic"})`
 
@@ -339,13 +339,13 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: 你 使 用 了 *受 到 伤 害 的 恐 惧*
+n: 你使用了 *受到伤害的恐惧*
 
 (#act1b)
 
 # act1b
 
-n: 效 果 显 著
+n: 效果显著
 
 `bb({mouth:"smile", eyes:"smile"});`
 
@@ -353,23 +353,23 @@ b: 看到了吗，人类？我是你忠诚的守卫狼！
 
 `bb({body:"pride_talk"});`
 
-b: 相信你的直觉！你的情感永远是合理的！
+b: 相信你的直觉！你的感受永远是合理的！
 
 `bb({body:"pride"});`
 
-n: 让 人 类 的 能 量 条 清 零
+n: 让人类的能量条清零
 
-n: 为 了 保 护 人 类 身 体 上+ 社 会 上+ 道 德 上 的 需 求， 你 可 以 使 用：
+n: 为了保护人类生理上+ 社会上+ 道德上的需求， 你可以使用：
 
-n: *受 到 伤 害 的 恐 惧* #harm#
+n: *受到伤害的恐惧* #harm#
 
-n: *不 被 爱 的 恐 惧* #alone#
+n: *不被爱的恐惧* #alone#
 
-n: 和 *成 为 坏 人 的 恐 惧* #bad#
+n: 和 *成为坏人的恐惧* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: （ 重 要 提 示： 选 择 那 个 击 中 了 你 内 心 最 深 处 最 隐 秘 的 恐 惧 的 选 项！ ~）
+n4: （重要提示： 选择那个说中了你内心最深处最隐秘的恐惧的选项！ ~）
 
 h: ...
 
@@ -390,11 +390,11 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 保 护 你 的 人 类
+n: 保护你的人类
 
-n: 从 这 个 世 界 中。 从 其 他 人 中。 从 他 们 自 己 中。
+n: 从这个世界中。 从其他人中。 从他自己中。
 
-n: 祝 你 好 运
+n: 祝你好运
 
 (...500)
 
@@ -408,11 +408,12 @@ n: 祝 你 好 运
 
 `music('battle', {volume:0.5})`
 
-n: 第 一 轮： *FIGHT!*
+n: 第一轮： *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
 h: 哈。脸书推送说这个周末有场派对。
+
 
 `bb({eyes:"uncertain"});`
 
@@ -420,7 +421,7 @@ b: 那个怪胎难道不是*每个*周末都办派对吗？
 
 `bb({eyes:"uncertain_right"});`
 
-b: 他们内心到底是有多空虚？肯定在深处是一团糟！
+b: 他到底是有多空虚？肯定在内心深处是一团糟！
 
 `hong({eyes:"surprise"});`
 
@@ -481,7 +482,7 @@ b: 只要他们不提供**白面包**
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: **老天啊**。要是那能让你闭嘴的话，行啊。
+h: **老天啊**。 要是那能让你闭嘴的话，行。
 
 h: 我会同意。
 
@@ -510,7 +511,7 @@ b: 我们吸食的冰毒和白面包会严重过量！我们肿胀的尸体都�
 {{/if}}
 
 {{if !_.whitebread}}
-b: 我们会嗑多少药！殡仪馆的人都会奇怪这具尸体怎么*已经*提前防腐过了！
+b: 我们会嗑多少药！殡仪馆的人都会奇怪这具尸体怎么已经*提前*防腐过了！
 {{/if}}
 
 ```
@@ -521,12 +522,12 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: 再说，不能去派对，我们必须工作否则就是糟糕的社会寄生虫！
+b: 再说，不能参加派对，我们必须工作否则就是糟糕的社会寄生虫！
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: **老天啊**。要是那能让你闭嘴的话，行啊。
+h: **老天啊**。 要是那能让你闭嘴的话，行。
 
 h: 我会拒绝。
 
@@ -546,6 +547,8 @@ b: 我们只会找个角落哭自己的孤独是如何像一天十五根烟一�
 
 {{if _.parasite}}
 b: 我们在派对上只会一直担心要怎么做才能产生价值。
+
+
 {{/if}}
 
 {{if _.whitebread}}
@@ -569,7 +572,7 @@ b: 所以要是我们去了我们就会让他们感觉糟糕，但如果拒绝�
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: **我们只会让别人感觉糟糕，所以我们应该感觉糟糕**
+b: **我们只会让别人感觉糟糕， 所以我们应该感觉糟糕**
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,7 +583,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 呃。要是那能让你闭嘴的话，行啊。
+h: 呃。要是那能让你闭嘴的话，行。
 
 h: 我会无视邀请。
 
@@ -605,7 +608,7 @@ h: 现在微博上有什么？
 
 [哦不，看那个恐怖的新闻！](#act1d_news)
 
-[哦不，那条微博是不是在暗讽我们？](#act1d_subtweet)
+[哦不，那条微博是不是在偷偷说我们？](#act1d_subtweet)
 
 [嘿，一张猫喝牛奶的动图。](#act1d_milk)
 
@@ -617,14 +620,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: 天啊，看着像是整个世界都烧起来了，你说是吧？
+b: 天啊，感觉像是整个世界都烧起来了，你说是吧？
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: 就好像一切都在迈向结束，所有事物都在消亡。而这都是命中注定的，我们什么都做不了。
+b: 就好像一切都在迈向结束，所有事物都在消亡。然而我们命中注定，在劫难逃。
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -666,7 +669,7 @@ h: 去他的，还是看下朋友圈吧。
 
 `bb({eyes:"fear"});`
 
-b: 这是条暗讽我们的微博！一条卑鄙，狡猾的（没有艾特当事人的）嘲讽微博！
+b: 这是条在暗示我们的微博！一条卑鄙，狡猾的（没有艾特当事人的）嘲讽微博！
 
 `hong({eyes:"annoyed"});`
 
@@ -705,7 +708,9 @@ h: ...
 
 (...1000)
 
+
 ```
+
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "alone");
 ```
@@ -719,7 +724,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 好--了，还是试下朋友圈吧。
+h: 好————了，还是试下朋友圈吧。
 
 (#act1e)
 
@@ -752,7 +757,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 好——了，还是看下朋友圈吧。
+h: 好————了，还是试下朋友圈吧。
 
 (#act1e)
 
@@ -760,7 +765,7 @@ h: 好——了，还是看下朋友圈吧。
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: 唔，昨晚的照片。所以*这就是*那些周末派对的样子。
+h: 唔，昨晚的照片。所以*这*就是那些周末派对的样子。
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -804,7 +809,7 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 他们就等着我们来结果我们却背叛他们的信任？你想注孤生吗？！
+b: 他们就等着我们来，结果我们却背叛他们的信任？你想注孤生吗？！
 
 {{if _.fifteencigs}}
 b: **十五。根烟。**
@@ -818,6 +823,7 @@ b: **鲸鱼。大便。**
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "alone");
 ```
+
 
 (...2500)
 
@@ -845,7 +851,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 2003年罗德岛的一家夜总会发生火灾，混乱中所有人都挤在了出口，于是一百个人被烧死了-，
+b: 2003年罗德岛的一家夜总会发生火灾，混乱中所有人都挤在了出口，于是一百个人被烧死了-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -886,7 +892,7 @@ h: 闭嘴闭嘴我改成拒绝就是了！老天啊！
 
 h: 嗯...看上去真的很有趣。
 
-h: 也许我本来应该同意那个邀请的？
+h: 也许我不该拒绝那个邀请的？
 
 `bb({mouth:"normal", eyes:"normal"});`
 
@@ -976,7 +982,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: 我们会被找出来被注销账号然后被绳子绑在马背上沿着信息高速公路飞奔！
+b: 我们会被找出来注销账号然后被系在马背上的绳子拖着沿信息高速公路摩擦！
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1042,7 +1048,7 @@ b: 你的脊椎是卷饼做的吗？！别弓着腰看屏幕了！
 bb({body:"meta"});
 ```
 
-b: 没错就是在说你。
+b: 没错也是在说你。
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1068,11 +1074,11 @@ h: 你为什么要这样？！
 
 h: 嗯...看上去真的很有趣。
 
-h: 也许我本来不该无视那个邀请的？
+h: 也许我不该无视那个邀请的？
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[继续无视，我们仍然是在派对上扫兴的那个人。](#act1e_ignore_continue)
+[继续无视，我们仍然是派对粥里的老鼠屎。](#act1e_ignore_continue)
 
 [实际上，同意吧。](#act1e_ignore_changetoyes)
 
@@ -1105,7 +1111,7 @@ b: 所以这就算是扯平了吧。
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: 你在...让我去玩？
+h: 你是在...让我去玩？
 
 b: 嗯哼，我是说，孤独真的*会*杀死我们的。
 
@@ -1137,7 +1143,7 @@ b: 什么，那个约炮app？
 
 `hong({eyes:"annoyed"})`
 
-h: 它不是约炮app，它只是可以用来交新朋--
+h: 它不是约炮app，它只是可以用来认识新朋--
 
 `bb({eyes:"narrow"})`
 
@@ -1148,7 +1154,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: 噢，我配对成功了！他们看上去挺可爱！
+h: 噢，我配对成功了！他看上去挺可爱的！
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1162,7 +1168,7 @@ bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: **危险危险危险危险危险危险**
+b: **危险危险危险危险危险危险危险危险**
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
@@ -1178,7 +1184,7 @@ b: **危险危险危险危险危险危险**
 
 b: 随机约炮也许可以填补这下面的空缺，
 
-b: 但是他们永远无法填补...
+b: 但是它们永远无法填补...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
@@ -1222,7 +1228,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (宝可梦主题曲)-
+b: ♫ （宝可梦主题曲）-
 
 (...5600)
 
@@ -1231,7 +1237,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ 我要成为，最^淫荡的^-
+b: ♫ 我要成为，最^淫荡^的-
 
 (...500)
 
@@ -1267,7 +1273,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ **婊可-梦！得抓住**-
+b: ♫ **^婊^可-梦！得抓住**-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1303,11 +1309,11 @@ b: 他们会用番茄计时器猛击你，一边说“**你该产生点价值的
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: 他们会把你的血肉撕成血色的碎片，把内脏裁成装饰带，然后把你的血混入大酒钵搅拌！
+b: 他们会把你的肉撕成血色的碎片，把内脏裁成装饰带，然后把你的血混入大酒钵搅拌！
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: **那**作为派对邀请怎么样？！
+b: 把**那**作为派对邀请怎么样？！
 {{/if}}
 
 ```
@@ -1347,13 +1353,13 @@ h:
 {{if _.subtweet}}“他们在背后议论我们”... {{/if}}
 {{if _.badnews}}“世界在燃烧”... {{/if}}
 {{if _.hookuphole}}“我们会一个人孤独到死”... {{/if}}
-{{if _.serialkiller}}“他们是连环杀人狂”... {{/if}}
+{{if _.serialkiller}}“他是个连环杀人狂”... {{/if}}
 {{if _.catmilk}}“猫不能消化牛奶”... {{/if}}
 {{if _.pokemon}}一个拙劣的模仿歌曲... {{/if}}
 
 h: 我只想过我自己的生活。
 
-h: 我只想逃离所有这些...痛苦。
+h: 我只想摆脱所有这些...痛苦。
 
 `bb({eyes:"look_sad"});`
 
@@ -1425,7 +1431,7 @@ bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^操^。*
+h: *^操^*。
 
 `hong({body:"2_you"});`
 
@@ -1465,7 +1471,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: 现在，请^天杀的^让我一个人在平静中吃这个美味的三明治。
+h: 现在，麻烦您^他妈的^让我一个人在平静中吃这个美味的三明治。
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1530,6 +1536,7 @@ attack("100p", "harm");
 # act1h_loneliness
 
 ```
+
 bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
@@ -1552,7 +1559,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: **啊啊啊啊我们真糟糕啊啊啊啊啊啊**
+b: **啊啊啊啊我们真是烂人啊啊啊啊啊啊**
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,29 +1577,29 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: 恭 喜
+n: 恭喜
 
 (...500)
 
-n: 你 成 功 地 保 护 了 人 类 生 理 上+ 社 交 上+ 道 德 上 的 需 求
+n: 你成功地保护了人类生理上+ 社会上+ 道德上的需求
 
-n: 为 什 么， 看 他 们 多 感 激！
+n: 为什么， 看他多感激！
 
 (...500)
 
-n: 现 在 他 们 的 能 量 清 零 了， 你 可 以 直 接 控 制 他 们 的 行 为
+n: 现在他的能量条清零了， 你可以直接控制他的行为
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: 选 择 你 的 最 后 一 击
+n: 选择你的最后一击
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *解决他们*
+n: ***解决他***
 
 [{攻击：惩罚给你带来焦虑的手机！}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{逃跑：蜷成球然后哭！}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{逃跑：缩成球然后哭！}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
@@ -1610,7 +1617,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 惩罚你的手机！毁了它！杀了它！
+b: 惩罚你的手机！ 毁了它！ 杀了它！
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1635,7 +1642,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 像穿山甲那样！蜷成球来自我防卫！
+b: 像穿山甲那样！缩成球来自我防卫！
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1651,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: **蜷起来哭蜷起来哭蜷起来哭蜷起来哭蜷起来哭蜷起来哭蜷起来哭蜷起来**-- 
+b: **缩起来哭缩起来哭缩起来哭缩起来哭缩起来哭缩起来哭缩起来哭缩起来**--
 
 (#act1j)
 

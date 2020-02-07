@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "on click" : "automatically";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "点击" : "自动";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
@@ -69,10 +69,10 @@ Loader.addSounds([
 
 		click_to_advance.style.display = "block";
 		blinkCTA();
-		
+
 	});
 	subscribe("hide_click_to_advance", function(){
-		
+
 		click_to_advance.style.display = "none";
 
 		if(currentBlinkingInterval) clearInterval(currentBlinkingInterval);
@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "Speak this fast" : "Speak this slow";
+		var dialogue = Game.TEXT_SPEED<80 ? "对话速度" : "对话速度";
 
 		// Put in the text
 		var span, chr;
@@ -187,7 +187,7 @@ Loader.addSounds([
 
 		ALREADY_DID_INTRO = false;
 		optionsDOM.setAttribute("past_intro", ALREADY_DID_INTRO ? "yes" : "no");
-		
+
 		optionsDOM.style.top = "447px";
 		_clearAllTimeouts();
 		text_speed_preview.innerHTML = "";
@@ -248,8 +248,8 @@ Loader.addSounds([
 		Howler.mute(false); // hack
 	});
 
-	subscribe("hide_options", function(){	
-		sfx("ui_click");	
+	subscribe("hide_options", function(){
+		sfx("ui_click");
 		optionsDOM.style.top = "";
 		Options.showing = false;
 		Game.onUnpause();
