@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: 所以在我们开始之前，*你*有什么阅读偏好？
+n3: 所以在我们开始之前， _你_ 有什么阅读偏好？
 
 `publish("show_options_bottom")`
 
@@ -53,7 +53,7 @@ music('battle', {volume:0.5});
 
 n: 而这是人类的焦虑
 
-n: *你*扮演焦虑
+n: _你_ 扮演焦虑
 
 (#act1_normal)
 

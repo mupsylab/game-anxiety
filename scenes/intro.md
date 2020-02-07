@@ -94,7 +94,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 n3: 欢迎！比起“游戏”，它更像是个互动故事。希望你阅读愉快，卢瑟！
 
-n3: 所以在我们开始之前，*你*有什么阅读偏好？
+n3: 所以在我们开始之前， _你_ 有什么阅读偏好？
 
 `publish("show_options_bottom")`
 

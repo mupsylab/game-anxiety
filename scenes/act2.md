@@ -911,7 +911,7 @@ b: 你为什么之前无视我？
 
 `hong({body:"facepalm"})`
 
-h: 你个^傻逼^, 傻到家了.
+h: 你个^傻逼^, 傻到家了。
 
 `hong({body:"facepalm_2"})`
 
@@ -1027,7 +1027,7 @@ attack("10p", "bad");
 # act2e
 
 
-h: ^*我操*^.
+h: ^*我操*^。
 
 `hong({body:"yell", mouth:"yell"})`
 
@@ -1041,7 +1041,7 @@ h: 你就是进化不完全的遗留，就好比我的阑尾或是智齿！
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^妈的^,其实狼的那个比喻整个都很蠢！你其实就是我脑子里的一堆化学物质！
+h: ^妈的^，其实狼的那个比喻整个都很蠢！你其实就是我脑子里的一堆化学物质！
 
 `hong({body:"cross", mouth:"cross"})`
 
@@ -1524,7 +1524,7 @@ h: **我*听到*轮胎摩擦的声音了。我都能*尝到*空气中的血味�
 
 b: 对不起，人类。
 
-n: ***解决他***
+n: *解决他*
 
 [{攻击：一拳入魂}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1699,7 +1699,6 @@ sfx("whoosh");
 b: 人类！你还好吗？！
 
 ```
-
 publish("act2", ["act2_end","next"]);
 ```
 
