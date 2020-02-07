@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: 而这是人类的焦虑
 
-n: _你_扮演焦虑
+n: *你*扮演焦虑
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -170,7 +170,7 @@ h: 好了回到角色来吧。
 Game.clearText();
 ```
 
-n4: （让_你的_焦虑吧啦吧啦选择和_你的_恐惧吧啦吧啦你知道怎么玩的）
+n4: （让*你的*焦虑吧啦吧啦选择和*你的*恐惧吧啦吧啦你知道怎么玩的）
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: 人类！听着，我们碰到危险了！危险是...
 
 `bb({body:"squeeze"})`
 
-n4: （让_你的_焦虑来接手游戏！ 选择和_你的_恐惧最接近的选项）
+n4: （让*你的*焦虑来接手游戏！ 选择和*你的*恐惧最接近的选项）
 
 (#act1_normal_choice)
 
@@ -1424,7 +1424,7 @@ b: 说到派对，关于这个周末的邀请，这是我的**最终**决定。
 
 # act1h
 
-b: 我们应该--
+b: 我们--
 
 ```
 bb({eyes:"wat", mouth:"small"});
@@ -1595,7 +1595,7 @@ n: 选择你的最后一击
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: ***解决他***
+n: *解决他*
 
 [{攻击：惩罚给你带来焦虑的手机！}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 

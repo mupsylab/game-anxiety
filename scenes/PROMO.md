@@ -53,7 +53,7 @@ music('battle', {volume:0.5});
 
 n: 而这是人类的焦虑
 
-n: _你_扮演焦虑
+n: *你*扮演焦虑
 
 (#act1_normal)
 
