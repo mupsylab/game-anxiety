@@ -136,7 +136,6 @@ publish("act3",["roofhunter",10]);
 r: 让那个东西知道我们^他妈的^根本就不在乎它的^婊言婊语^！跳进去。
 
 ```
-
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
@@ -269,7 +268,6 @@ bb({ eyes:"start" });
 [那些神经病根本就不是你的朋友！](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
-
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
@@ -815,7 +813,6 @@ n: *平局*
 
 `_.a3_ending = "walkaway";`
 
-
 (#act3_end)
 
 
@@ -899,7 +896,7 @@ publish("act3",["roofhunter",26]);
 
 h2: 对。
 
-h2: 我害怕了。
+h2: 我是害怕了。
 
 `publish('hong-next')`
 
