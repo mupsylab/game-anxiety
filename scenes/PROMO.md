@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: 所以在我们开始之前， _你_ 有什么阅读偏好？
+n3: 所以在我们开始之前， *你* 有什么阅读偏好？
 
 `publish("show_options_bottom")`
 
