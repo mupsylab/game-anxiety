@@ -422,7 +422,7 @@ h: 我...我会试试。
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: 好。于情绪建立健康的关系。这需要沟通。所以我们聊聊吧。
+h: 好。与情绪建立健康的关系。这需要沟通。所以我们聊聊吧。
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
@@ -434,11 +434,11 @@ hong({body:"hands_2", mouth:"normal"});
 
 h: 亲爱的内心的狼...*你*现在感觉怎么样？
 
-n2: **总共使用的恐惧：**
+n2: 总共使用的恐惧：
 
-n2: ***受伤*** {{_.attack_harm_total}}, ***不被爱*** {{_.attack_alone_total}}, ***坏人*** {{_.attack_bad_total}}
+n2: *受伤* {{_.attack_harm_total}}, *不被爱* {{_.attack_alone_total}}, *坏人* {{_.attack_bad_total}}
 
-n2: **你想先谈哪个恐惧？（其他的可以等会再谈）**
+n2: 你想先谈哪个恐惧？（其他的可以等会再谈）
 
 ```
 _.a4_fears_discussed = 0;
