@@ -398,6 +398,8 @@ Game.executeText = function(line){
 		if(Game.OVERRIDE_FONT_SIZE){
 			div.style.fontSize = Game.OVERRIDE_FONT_SIZE+"px";
 		}
+		div.style.whiteSpace = "normal";
+		div.style.wordBreak = "break-all";
 		switch(speaker){
 			case "b":
 				div.className = "beebee-bubble";
